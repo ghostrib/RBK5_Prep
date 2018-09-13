@@ -63,6 +63,12 @@ angular.module('prep',[
 	.when('/git',{
 		templateUrl : 'app/other/git.html'
 	})
+	.when('/gitexcer',{
+		templateUrl : 'app/other/gitexcer.html'
+	})
+	.when('/shell',{
+		templateUrl : 'app/other/shell.html'
+	})
 	.when('/twitler',{
 		templateUrl : 'app/other/twitler.html'
 	})
