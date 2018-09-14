@@ -72,6 +72,9 @@ angular.module('prep',[
 	.when('/googling',{
 		templateUrl : 'app/wiki/googling.html'
 	})
+	.when('/studentWiki',{
+		templateUrl : 'app/wiki/studentWiki.html'
+	})
 	.when('/twitler',{
 		templateUrl : 'app/other/twitler.html'
 	})
