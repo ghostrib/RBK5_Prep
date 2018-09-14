@@ -70,8 +70,7 @@ angular.module('prep',[
 		templateUrl : 'app/other/shell.html'
 	})
 	.when('/googling',{
-		templateUrl : 'app/wiki/googling.html',
-		controller : "CalendarController"
+		templateUrl : 'app/wiki/googling.html'
 	})
 	.when('/twitler',{
 		templateUrl : 'app/other/twitler.html'
