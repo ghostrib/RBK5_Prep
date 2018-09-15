@@ -51,6 +51,9 @@ angular.module('prep',[
 	.when('/lightning',{
 		templateUrl : 'app/wiki/lightning.html'
 	})
+	.when('/askingQuestions',{
+		templateUrl : 'app/wiki/askinQuestions.html'
+	})
 	.when('/whiteboarding',{
 		templateUrl : 'app/other/Whiteboarding.html'
 	})
