@@ -57,6 +57,9 @@ angular.module('prep',[
 	.when('/whiteboarding',{
 		templateUrl : 'app/other/Whiteboarding.html'
 	})
+	.when('/styling&documenting',{
+		templateUrl : 'app/other/styling&documenting.html'
+	})
 	.when('/webDevlopment',{
 		templateUrl : 'app/other/webDevlopment.html'
 	})
