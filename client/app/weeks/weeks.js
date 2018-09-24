@@ -59,9 +59,9 @@ angular.module('prep.weeks',[])
 			$scope.Solutions.push('Map');
 			$scope.Solutions.push('Improved Map');
 			$scope.Solutions.push('Filter');
-			// $scope.Solutions.push('Reduce');
-			// $scope.Solutions.push('Improved Reduce');
-			// $scope.Solutions.push('Introduction to Closures');
+			$scope.Solutions.push('Reduce');
+			$scope.Solutions.push('Improved Reduce');
+			$scope.Solutions.push('Introduction to Closures');
 			// $scope.Solutions.push("Closures Adding Methods");
 			// $scope.Solutions.push("Data Modeling with Closures");
 			// $scope.Solutions.push("Object Oriented Programming");
