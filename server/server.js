@@ -1,13 +1,15 @@
-var express=require('express');
-var mongoose=require('mongoose');
+var express = require('express');
+var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
-var app=express();
+var app = express();
 
-require('./config/middleware.js')(app,express);
-require('./config/routes.js')(app,express);
+require('./config/middleware.js')(app, express);
+require('./config/routes.js')(app, express);
 
-var mongoURI = "mongodb://Fatima:1234@ds157342.mlab.com:57342/prep" || 'mongodb://localhost/prep';
+var mongoURI =
+  'mongodb://Fatima:1234@ds157342.mlab.com:57342/prep' ||
+  'mongodb://localhost/prep';
 
 mongoose.connect(mongoURI);
 
@@ -17,10 +19,10 @@ mongoose.connect(mongoURI);
 //  console.log('Mongodb connection open');
 // });
 
-var port= process.env.PORT || 8000;
+var port = process.env.PORT || 8000;
 
-app.listen(port,function(){
-	console.log('App is now listning on 8000');
+app.listen(port, function() {
+  console.log('App is now listning on 8000');
 });
 
-module.exports=app;
+module.exports = app;
